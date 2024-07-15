@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+      <title>SURVEY FORM</title>
+      <link rel="stylesheet" href="Mystyle.css">
+    </head>
+    <body class="form">
+      <header>
+        <nav class="navbar"> 
+            <a href="home.html">HOME</a>
+            <a href="travelguide.html">TRAVEL GUIDE</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="Registrationform.html">BOOKING</a>
+            <a href="Loginform.html">LOGIN</a>
+        </nav>
+    </header>
+      <h1 id="title">BOOKING</h1>
+      <p id="description">Thankyou for taking time for us</p>
+      <div class="Survey">
+      <form id="survey-form" method="post" action="Login.html">
+        <fieldset>
+      NAME <input id="name" type="text" required placeholder="Enter name"/></label><br>
+      EMAIL <input id="email" type="email" required placeholder="Enter email"/></label><br>
+      AGE <input id="number" type="number" min="18" max="50" placeholder="Enter age" \></label><br>
+      DOB<input id="number" type="date" placeholder="Enter dob" \></label><br>
+        </fieldset>
+        <fieldset>
+          <label>Enter prefered climate:</label><br>
+            <select id="dropdown">
+              <option value="">(select below)</option>
+              <option value="1">Sunny</option>
+              <option value="2">Spring</option>
+              <option value="3">SNOW</option>
+              <option value="4">Other</option>
+            </select>
+          </label><br>
+          <br><label>Gender</label><br>
+           <label><input  type="radio"/>MALE</label><br>
+           <label><input  type="radio"/>FEMALE</label><br>
+        </fieldset>
+        <fieldset>
+          Enter start date:<input id="number" type="date"\><br>
+          Enter end date:<input id="number" type="date"\>
+        </fieldset>
+        <fieldset>
+           <label>LANGUAGES</label><br>
+             <label><input type="checkbox">Telugu</label><br>
+           <label><input  type="checkbox" >Hindi</label><br>
+           <label><input type="checkbox" >English</label><br>
+           <label>Suggestion:<br>
+             <textarea id="" placeholder="comments for improvement"></textarea>
+           </label>
+        </fieldset>
+        <input id="submit" type="submit" value="Submit" class="last">
+      </form>
+      </div>
+      </body>
+  </html>
